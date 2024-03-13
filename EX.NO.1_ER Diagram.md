@@ -13,6 +13,8 @@
 5. Specify attributes unique, multivalued and composite attributes.
 
 ### ER Diagram 
+![image](https://github.com/DrUmaRaniV/DBMS/assets/119291430/753d5a5d-12af-4caa-9d2d-30cb98d77289)
+
 
 
 ### Relational model
