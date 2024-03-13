@@ -14,6 +14,7 @@
 
 ### ER Diagram 
 
+![image](https://github.com/DrUmaRaniV/DBMS/assets/119291430/11b0026c-f22c-4300-83cc-680d0227d906)
 
 ### Relational model
 
