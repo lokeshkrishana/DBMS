@@ -18,6 +18,7 @@
 
 
 ### Relational model
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/dba952ba-bec6-4246-9272-6aaddbf2b036)
 
 
 ### SQL DDL Schema 
