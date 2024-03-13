@@ -1,4 +1,5 @@
 # EXP NO 2: DATA DEFINITION LANGUGE COMMANDS 
+### DATE : 16/08/23
 
 ## AIM:
 To create a student database and execute DDL queries using SQL.
@@ -20,61 +21,73 @@ To create a student database and execute DDL queries using SQL.
 4. TRUNCATE: This is used to remove all records from a table, including all spaces allocated for the records are removed.
 5. RENAME: This is used to rename an object existing in the database.
 
+
 ## Query:
 ### 1) Create a database studentdb
+
 ### SQL QUERY:
-```python
-create database student_db;
 ```
+create database studentdbb;
+```
+
 ### OUTPUT:
-![1](https://github.com/Leann4468/DBMS/assets/121165979/48c4c935-32c1-4cae-b375-e68cba5d2d3c)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/58fc5109-3fe3-4b71-adfa-c8de97a3eb0c)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/a4e4ad5f-3b5d-4d4c-b347-54957dca3420)
 
+### 2) Create a table student  and insert any two rows with the following fieds RegisterNumber,Name,Age,Address,Phone number
 
-### 2) Create a table student with the following fieds RegisterNumber,Name,Age,Address,Phone number
 ### SQL QUERY: 
-```python
-create table student(Regno int,Name varchar(20),Age int,Address varchar(50),Phonenumber varchar(10));
 ```
+ create table student(RegisterNumber int,Name varchar(100),Age int,Address varchar(250),PhoneNumber int) ;
+```
+
 ### OUTPUT:
-![2](https://github.com/Leann4468/DBMS/assets/121165979/5f248ecb-5f4c-4f71-9de8-50076e7f53b1)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/2ed4d00e-5741-4f71-a0d2-0384650e6dae)
+
 
 ### 3) Alter the above student table by adding another attribute department
+
 ### SQL QUERY: 
-```python
-alter table student
-add dept varchar(20);
 ```
+ alter table student add dept varchar(20);
+```
+
 ### OUTPUT:
-![3](https://github.com/Leann4468/DBMS/assets/121165979/b669e9f2-1fc6-4e3f-9398-8dbe9d854f9e)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/0d709df7-9e80-4b2c-a358-dac94a29b6fa)
 
 
-### 4) Drop the student table
+### 4) Rename the student table to mystudent
+
 ### SQL QUERY: 
-```python
-drop table student;
 ```
-### OUTPUT:
-![4](https://github.com/Leann4468/DBMS/assets/121165979/7478394a-5dbe-44af-9869-9bcc014e9c35)
-
-
-### 5) Delete the student table using truncate keyword
-### SQL QUERY:
-```python
-truncate table student;
+rename table student to mystudent;
 ```
-### OUTPUT:
-![5](https://github.com/Leann4468/DBMS/assets/121165979/a16962e1-e389-4947-bb93-bd2b79e3e226)
 
-### 6) Rename the student table to mystudent
+### OUTPUT:
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/331990e2-babb-47a7-8576-d71ef8928eb3)
+
+
+### 5) Delete the mystudent rows using truncate keyword
+
 ### SQL QUERY: 
-```python
-alter table student
-rename to mystudent;
+```
+ truncate table mystudent;
 ```
 ### OUTPUT:
-![6](https://github.com/Leann4468/DBMS/assets/121165979/47655109-2cd5-41f3-ba1c-2a704d546eea)
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/73984590-23c6-4463-bb92-bfd6325824df)
+
+### 4) Drop the mystudent table
+ 
+### SQL QUERY: 
+```
+ drop table mystudent;
+```
+
+### OUTPUT:
+![image](https://github.com/sabithapaulraj/DBMS/assets/118343379/f798b751-c946-4215-83de-d22ebf9c9d73)
+
 
 ## Result:
-  Thus the basic DDL commands in SQL are executed. 
-
-
+<div align="justify">
+       Thus the basic DDL commands in SQL are executed.
+</div>
