@@ -17,6 +17,7 @@ begin
 dbms_output.put_line(a+b);
 dbms_output.put_line(a-b);
 end;
+
 ### Output:
 ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/c01cfb86-1433-4a7d-a7f0-71f3f59b879a)
 
