@@ -81,62 +81,63 @@ INSERT INTO DEPT (DEPTNO, DNAME, LOC) VALUES (40, 'OPERATIONS', 'BOSTON');
 
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/1848b392-372d-4111-af2d-25daf5458864)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/65cb4b8a-cdae-432f-bd04-3ea51309a509)
+
+
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/ee7dd795-bf87-4dff-aca9-b80307477ddd)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/24faa4fa-7db9-42cf-98cc-61438f44a5a6)
 
 
 ### Q2) List the ename,job,sal of the employee who get minimum salary in the company.
 
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/2c78d720-f077-4843-bbbd-cefb0e36afcf)
-
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/a1561ba1-5103-40bc-9fe4-bae42e6dacf1)
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/0ca9e7dc-c9b6-45c6-b7a0-bf123d815295)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/de37c770-1845-487c-b877-8768391d067d)
 
 
 ### Q3) List ename, job of the employees who work in deptno 10 and his/her job is any one of the job in the department ‘SALES’.
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/ea1201a0-53bc-436b-b815-3889759afcff)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/9e6028b0-0cb2-4738-b7e7-6aad5469dcc2)
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/7376ae95-bab6-4739-abd7-bdc5e8a727dd)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/13c54790-2460-47bb-bc4c-d0aa28a2d9ec)
 
 
 ### Q4) Create a view empv5 (for the table emp) that contains empno, ename, job of the employees who work in dept 10.
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/4c3e781f-8787-461d-b2ee-162f5222abd9)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/499f79b3-a927-44e7-ba9c-d3328840473c)
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/753d1db9-8955-4b97-b850-43622886968b)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/e574b981-a826-4169-96f2-85afef3520e6)
 
 
 ### Q5) Create a view with column aliases empv30 that contains empno, ename, sal of the employees who work in dept 30. Also display the contents of the view.
 
 ### QUERY:
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/a457b20c-07e7-4eae-bf22-a3825d6bc28a)
 
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/3551ed65-3cb5-4846-b817-48436b507530)
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/026712b5-02b2-40d6-a757-cec5bc08890d)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/49c85d92-3516-4f74-8438-78f32b4aa572)
 
 
 ### Q6) Update the view empv5 by increasing 10% salary of the employees who work as ‘CLERK’. Also confirm the modifications in emp table
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/d83bbdcd-83a3-427e-bd2b-e799958b055d)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/a6c54a47-3442-4eab-b89d-8db7f0365141)
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/6941b531-33ed-41dc-b6f4-9e8bcc0dd113)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/d81d4548-6b40-49ea-bdfe-e501b025c7b6)
 
 
 ## Create a Customer1 Table
@@ -174,50 +175,48 @@ INSERT INTO Salesman1 (salesman_id, name, city, commission) VALUES(5003, 'Lauson
 ### Q7) Write a SQL query to find the salesperson and customer who reside in the same city. Return Salesman, cust_name and city.
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/20c63405-1555-444c-8d92-daee8ad9f52d)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/33eabef8-bb66-4f39-be51-2c82daec23c9)
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/4bf9b80e-b31d-486e-87b5-5462e60e6e2f)
-
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/b441e346-8246-483f-bcfd-1f87ed42c71a)
 
 ### Q8) Write a SQL query to find salespeople who received commissions of more than 13 percent from the company. Return Customer Name, customer city, Salesman, commission.
 
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/6b4b7f1a-e1fa-41eb-abfc-d544b005a00e)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/cbc8608a-57ab-4b32-a523-284839ac2822)
 
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/031553d8-640c-4306-9f12-cd4a6c6a68ed)
-
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/ed1210a8-42b8-4980-b35b-22bdec3bd8b4)
 
 ### Q9) Perform Natural join on both tables
 
 ### QUERY:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/a9609769-7404-4c74-909b-53d5610ea79a)
 
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/053c96be-5430-4c38-9257-a3449d92cce8)
 
 ### OUTPUT:
-![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/1026e100-8a70-45e8-bdcb-3d51efdfa1fc)
+![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/467edec6-3b75-45e5-9bc0-1a291a3f310a)
 
 
 ### Q10) Perform Left and right join on both tables
 
 ### QUERY:
-   ## Left Join
-   ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/7915ee92-d1e0-4528-be68-4bbe6fd7a11c)
+   ## Left Join 
+  ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/6bbf36b6-7645-462a-8851-b87c6b7ba81a)
 
    ## Right join
-   ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/8be146f2-c02a-4c31-8dd7-a759a92e69c3)
+  ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/0831bed2-81f8-4c49-9b17-f3ad6b7d6b2d)
 
 ### OUTPUT:
    ## Left Join
-   ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/f7e2b17f-33d1-404c-8a43-83636dc8c552)
+  ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/a94eb39c-dddb-4419-bdb1-d085d414b3c9)
 
 
    ## Right Join
-   ![image](https://github.com/DhanushPalani/EX-3-SubQueries-Views-and-Joins/assets/121594640/43cc7093-35af-4c4b-8854-068a0f0b34d1)
+  ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/4232c932-fe0c-4089-b320-c689dd016e76)
 
 
 ## RESULT 
