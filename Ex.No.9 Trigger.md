@@ -28,9 +28,13 @@ CREATE TABLE sal_log (
   update_date DATE
 );
 ### Output:
+
 Create employee table
+
 ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/fc21e423-99ba-46d6-ab17-3071bd539dce)
+
 Create salary_log table
+
 ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/c24cd2fe-741c-44f8-8665-496dec39c46a)
 
 PLSQL Trigger code
