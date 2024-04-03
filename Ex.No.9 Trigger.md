@@ -62,6 +62,7 @@ SELECT * FROM employed;
 SELECT * FROM sal_log;
 
 Output:
+
 ![image](https://github.com/lokeshkrishana/DBMS/assets/119291430/f14174db-7433-4c00-9f37-ff1820d21f11)
 
 ### Result:
